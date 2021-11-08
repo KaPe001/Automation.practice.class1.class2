@@ -36,7 +36,7 @@ public class TokenGeneratorArray {
             }
             return new String(buf);
         } catch (InputMismatchException e) {
-            System.out.println("Input is not an integer");
+            System.out.println("Size must be provided as an integer");
         }
         return null;
     }
