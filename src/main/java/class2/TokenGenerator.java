@@ -1,5 +1,7 @@
 package class2;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -34,5 +36,6 @@ public class TokenGenerator {
             default:
                 System.out.println(("This size is not an option."));
         }
+        sc.close();
     }
 }

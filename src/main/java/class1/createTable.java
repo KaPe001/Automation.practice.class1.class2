@@ -1,6 +1,5 @@
 package class1;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class createTable {
@@ -16,8 +15,7 @@ public class createTable {
         //create a table
         System.out.println("Please, enter " + size + " values to fulfill the table.");
         for (int i = 0; i < size; i++) {
-            int value = sc.nextInt();
-            numbers[i] = value;
+            numbers[i] = sc.nextInt();
         }
 
         //calculate the average and sum
